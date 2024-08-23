@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+.ADD{
+    background-image: url(../images/Add.png);
+}
+#Home li a{
+    border-bottom:2px solid #393939;
+} 
+#Home li:hover a{
+ border-bottom:2px solid #FFFF;
+} 
