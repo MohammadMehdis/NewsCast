@@ -8,8 +8,8 @@
     background-image: url(../images/Add.png);
 }
 #Home li a{
-    border-bottom:2px solid #393939;
+    border-bottom:1px solid #393939;
 } 
 #Home li:hover a{
- border-bottom:2px solid #FFFF;
+ border-bottom:1px solid #FFFF;
 } 
