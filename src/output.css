@@ -588,6 +588,10 @@ video {
   }
 }
 
+.fixed {
+  position: fixed;
+}
+
 .absolute {
   position: absolute;
 }
@@ -612,6 +616,10 @@ video {
   top: 3%;
 }
 
+.top-\[3\.15\%\] {
+  top: 3.15%;
+}
+
 .top-\[37\%\] {
   top: 37%;
 }
@@ -620,88 +628,12 @@ video {
   top: 4%;
 }
 
-.top-\[5\.9\%\] {
-  top: 5.9%;
+.bottom-0 {
+  bottom: 0px;
 }
 
-.top-\[5\%\] {
-  top: 5%;
-}
-
-.top-\[58\%\] {
-  top: 58%;
-}
-
-.top-\[5\.7\%\] {
-  top: 5.7%;
-}
-
-.top-\[5\.75\%\] {
-  top: 5.75%;
-}
-
-.top-\[5\.85\%\] {
-  top: 5.85%;
-}
-
-.top-\[6\%\] {
-  top: 6%;
-}
-
-.top-\[59\.5\%\] {
-  top: 59.5%;
-}
-
-.top-\[5\.95\%\] {
-  top: 5.95%;
-}
-
-.top-\[5\.99\%\] {
-  top: 5.99%;
-}
-
-.top-\[6\.2\%\] {
-  top: 6.2%;
-}
-
-.top-\[6\.1\%\] {
-  top: 6.1%;
-}
-
-.top-\[6\.15\%\] {
-  top: 6.15%;
-}
-
-.top-\[6\.\%\] {
-  top: 6.%;
-}
-
-.top-\[6\.05\%\] {
-  top: 6.05%;
-}
-
-.top-\[5\.8\%\] {
-  top: 5.8%;
-}
-
-.top-\[3\.5\%\] {
-  top: 3.5%;
-}
-
-.top-\[3\.\%\] {
-  top: 3.%;
-}
-
-.top-\[3\.25\%\] {
-  top: 3.25%;
-}
-
-.top-\[3\.3\%\] {
-  top: 3.3%;
-}
-
-.top-\[3\.15\%\] {
-  top: 3.15%;
+.z-50 {
+  z-index: 50;
 }
 
 .flex {
@@ -786,6 +718,10 @@ video {
 
 .h-full {
   height: 100%;
+}
+
+.h-\[3\.5rem\] {
+  height: 3.5rem;
 }
 
 .w-\[100\%\] {
@@ -928,6 +864,14 @@ video {
   width: 100%;
 }
 
+.w-\[79\.7\] {
+  width: 79.7;
+}
+
+.w-\[79\.7\%\] {
+  width: 79.7%;
+}
+
 .transform {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
@@ -994,6 +938,22 @@ video {
 
 .gap-y-\[1\.3rem\] {
   row-gap: 1.3rem;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.rounded {
+  border-radius: 0.25rem;
+}
+
+.rounded-\[\] {
+  border-radius: ;
+}
+
+.rounded-\[0\.5rem\] {
+  border-radius: 0.5rem;
 }
 
 .border-b-2 {
@@ -1071,6 +1031,10 @@ video {
 
 .pl-\[1rem\] {
   padding-left: 1rem;
+}
+
+.pr-\[13\.6rem\] {
+  padding-right: 13.6rem;
 }
 
 .font-Oswald {
@@ -1166,6 +1130,14 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.opacity-\[0\.7\] {
+  opacity: 0.7;
+}
+
+.opacity-\[0\.8\] {
+  opacity: 0.8;
+}
+
 .shadow-ShadowBlack {
   --tw-shadow: 0px 1px 10px rgba(246, 80, 80, 0.15);
   --tw-shadow-colored: 0px 1px 10px var(--tw-shadow-color);
@@ -1176,6 +1148,14 @@ video {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
+.transition {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
 .hover\:bg-red-100:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(246 80 80 / var(--tw-bg-opacity));
@@ -1184,18 +1164,4 @@ video {
 .focus\:outline-none:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
-}
-
-@media not all and (min-width: 1536px) {
-  .max-2xl\:bg-red-600 {
-    --tw-bg-opacity: 1;
-    background-color: rgb(220 38 38 / var(--tw-bg-opacity));
-  }
-}
-
-@media not all and (min-width: 1280px) {
-  .max-xl\:bg-red-600 {
-    --tw-bg-opacity: 1;
-    background-color: rgb(220 38 38 / var(--tw-bg-opacity));
-  }
 }
