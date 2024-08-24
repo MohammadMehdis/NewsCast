@@ -13,3 +13,15 @@
 #Home li:hover a{
  border-bottom:1px solid #FFFF;
 } 
+.container #item-1{
+background-image: url(../images/laptop.png);
+}
+.container #item-2{
+background-image: url(../images/Post-2.png);
+}
+.container #item-3{
+background-image: url(../images/post-3.png);
+}
+.container #item-4{
+background-image: url(../images/lamp.png);
+}
